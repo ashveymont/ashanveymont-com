@@ -2,5 +2,14 @@
   command = "npm run build"
   publish = ".next"
 
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps"
+
 [[plugins]]
-  package = "@netlify/next" 
+  package = "@netlify/next"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
