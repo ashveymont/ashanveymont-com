@@ -50,6 +50,7 @@ const Hero = styled.section`
   text-align: left;
   gap: 2.2rem;
   padding-left: 38px;
+  padding-right: 38px;
   padding-bottom: 8vh;
   
   @media (max-width: 768px) {
@@ -69,7 +70,7 @@ const Hero = styled.section`
 
 const Name = styled(motion.h1)`
   font-family: 'Space Grotesk', 'Sora', 'Syne', Arial, sans-serif;
-  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-size: clamp(2.8rem, 7vw, 7rem);
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 1.05;
@@ -81,21 +82,47 @@ const Name = styled(motion.h1)`
   filter: drop-shadow(0 0 16px #a68a2a88);
   text-shadow: 0 0 32px #bfa14a44;
   transition: filter 0.3s;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+  @media (max-width: 768px) {
+    font-size: clamp(2.2rem, 6vw, 5rem);
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: clamp(1.8rem, 5vw, 4rem);
+    line-height: 1.15;
+    margin-bottom: 0.4rem;
+  }
 `;
 
 const Title = styled(motion.h2)`
   font-family: 'Space Grotesk', 'Sora', 'Syne', Arial, sans-serif;
-  font-size: clamp(1.3rem, 3vw, 2.4rem);
+  font-size: clamp(1.1rem, 2.8vw, 2.4rem);
   font-weight: 400;
   color: #f5e7b2;
   margin-bottom: 2.5rem;
   letter-spacing: 0.01em;
-  line-height: 1.15;
+  line-height: 1.2;
   opacity: 0.92;
   text-shadow: 0 2px 24px #a68a2a44, 0 0 8px #fff2, 0 0 2px #bfa14a33;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  
+  @media (max-width: 768px) {
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    line-height: 1.3;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: clamp(0.9rem, 2.2vw, 1.5rem);
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
 `;
 
 const StoryButton = styled(motion.a)`
@@ -124,6 +151,17 @@ const StoryButton = styled(motion.a)`
     transform: translateY(-4px) scale(1.06);
     box-shadow: 0 8px 40px 0 #a68a2a55;
     filter: drop-shadow(0 0 32px #bfa14acc);
+  }
+  
+  @media (max-width: 768px) {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
   }
 `;
 
@@ -159,6 +197,14 @@ const VisionSection = styled.section`
   justify-content: center;
   overflow: hidden;
   padding: 4rem 2rem;
+  
+  @media (max-width: 768px) {
+    padding: 3rem 1.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 const CosmicBackground = styled.div`
@@ -200,7 +246,7 @@ const VisionContent = styled.div`
 
 const VisionTitle = styled(motion.h2)`
   font-family: 'Space Grotesk', 'Sora', 'Syne', Arial, sans-serif;
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 700;
   background: linear-gradient(90deg, #fff 10%, #bfa14a 50%, #fff 90%);
   background-clip: text;
@@ -210,6 +256,16 @@ const VisionTitle = styled(motion.h2)`
   text-shadow: 0 0 64px #bfa14a44;
   margin-bottom: 1rem;
   letter-spacing: -0.02em;
+  
+  @media (max-width: 768px) {
+    font-size: clamp(2rem, 4.5vw, 4rem);
+    margin-bottom: 0.8rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-bottom: 0.6rem;
+  }
 `;
 
 const VisionSubtitle = styled(motion.h3)`
@@ -234,6 +290,18 @@ const VisionText = styled(motion.div)`
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  
+  @media (max-width: 768px) {
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
 `;
 
 const QuoteBlock = styled(motion.blockquote)`
@@ -489,6 +557,14 @@ const ScrollingTextStrip = styled.div`
   display: flex;
   align-items: center;
   backdrop-filter: blur(4px);
+  
+  @media (max-width: 768px) {
+    height: 60px;
+  }
+  
+  @media (max-width: 480px) {
+    height: 50px;
+  }
 `;
 
 const ScrollingText = styled.div`
@@ -517,6 +593,16 @@ const ScrollingTextContent = styled.span`
   letter-spacing: 0.02em;
   margin: 0 4rem;
   opacity: 0.9;
+  
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+    margin: 0 2rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    margin: 0 1.5rem;
+  }
 `;
 
 const VenturesSection = styled.section`
@@ -608,6 +694,18 @@ const VentureCard = styled(motion.div)`
   &:hover::before {
     left: 100%;
   }
+  
+  @media (max-width: 768px) {
+    padding: 2rem;
+    height: auto;
+    min-height: 320px;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 1.5rem;
+    min-height: 280px;
+    border-radius: 1rem;
+  }
 `;
 
 
@@ -620,6 +718,16 @@ const VentureTitle = styled.h3`
   margin-bottom: 1.5rem;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
   letter-spacing: -0.02em;
+  
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 const VentureDescription = styled.p`
@@ -630,6 +738,16 @@ const VentureDescription = styled.p`
   margin-bottom: 0;
   opacity: 0.85;
   margin-top: 0;
+  
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 `;
 
 const VentureButton = styled(motion.button)`
