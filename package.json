@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/runtime": "^7.27.6",
     "@fontsource/space-grotesk": "^5.2.8",
     "@netlify/next": "^1.4.9",
     "@netlify/plugin-nextjs": "^5.11.4",
@@ -24,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
     "typescript": "^5"
