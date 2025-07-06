@@ -750,43 +750,43 @@ export default function Home() {
               <div
                 style={{ whiteSpace: 'pre-line', fontSize: '1.18rem', color: '#fff', fontFamily: 'Space Grotesk, Sora, Syne, Arial, sans-serif', lineHeight: 1.7, opacity: 0.96 }}
               >
-                {`I&apos;m Ashan. Some may know me as the hypnotic guy who sells ice to Eskimos, the AI architect, the chess master, the guy from school, or simply—just Ashan. But truly, I&apos;m a son, a brother, a friend, and most importantly—a human.
+                {`I'm Ashan. Some may know me as the hypnotic guy who sells ice to Eskimos, the AI architect, the chess master, the guy from school, or simply—just Ashan. But truly, I'm a son, a brother, a friend, and most importantly—a human.
 
-I was born in a small town in Sri Lanka—Ratnapura. To a beautiful family—happy and perfect to the world, but chaos on the inside. My nights were not of bedtime stories or lullabies, but of a drunk father abusing an innocent, helpless mom. Countless nights of tears, death scares, and silent screams. A young, helpless boy in an Alejandro Hartmann movie—the guy who directed The Menendez Brothers—living and witnessing as a monster plucks out the teeth of the woman who birthed me. A young boy, shocked by what&apos;s happening and not knowing what to do.
+I was born in a small town in Sri Lanka—Ratnapura. To a beautiful family—happy and perfect to the world, but chaos on the inside. My nights were not of bedtime stories or lullabies, but of a drunk father abusing an innocent, helpless mom. Countless nights of tears, death scares, and silent screams. A young, helpless boy in an Alejandro Hartmann movie—the guy who directed The Menendez Brothers—living and witnessing as a monster plucks out the teeth of the woman who birthed me. A young boy, shocked by what's happening and not knowing what to do.
 
 Years of pain.
 
-That exact same pain clicked something in me—I&apos;m going to get the hell out of here and take my mom. Give her everything she deserves. Pain turned into a solid goal and disciplined motivation.
+That exact same pain clicked something in me—I'm going to get the hell out of here and take my mom. Give her everything she deserves. Pain turned into a solid goal and disciplined motivation.
 
-I know some of the closest people to me might be astonished to hear this, but that&apos;s because I could be an Oscar-winning actor—pretending to be happy and all fine when I&apos;m burning from the inside.
+I know some of the closest people to me might be astonished to hear this, but that's because I could be an Oscar-winning actor—pretending to be happy and all fine when I'm burning from the inside.
 
-I went to one of the best international schools in Sri Lanka—the school that gave me all. The exact same place that played a huge role in who I am today. For that, I&apos;m incredibly grateful to all my professors and simply—the school.
+I went to one of the best international schools in Sri Lanka—the school that gave me all. The exact same place that played a huge role in who I am today. For that, I'm incredibly grateful to all my professors and simply—the school.
 
 I studied to become a neurologist because Asians, especially Sri Lankans, were raised to glorify doctors, lawyers, and engineers. I went to school, studied hard, and aced my exams. Did most of the sports the school had to offer—not because I was fond of them but because it kept me three extra hours at school. I feared coming home to a toxic household. School was peaceful to me.
 
 That made me a state swimmer, international chess master, two-time state chess champion—and the list goes on.
 
-I chose biological sciences as my stream to do A/Ls to enter medical school, but circumstances had me look for a job. I started working as a marketing executive for a consulting company in Hong Kong. I was also handling marketing for two HNW brands in HK and Japan at the time. That was my first job, and Ruby taught me everything I had to know. For that, I&apos;m incredibly grateful.
+I chose biological sciences as my stream to do A/Ls to enter medical school, but circumstances had me look for a job. I started working as a marketing executive for a consulting company in Hong Kong. I was also handling marketing for two HNW brands in HK and Japan at the time. That was my first job, and Ruby taught me everything I had to know. For that, I'm incredibly grateful.
 
 That money was plenty for me to take care of myself, my mom, and her medical bills. The company transitioned and made a huge layoff of employees—which I was one of.
 
-I&apos;m an Arena FIDE Chess Master, internationally rated chess player, certified chess coach, and a two-time state chess champion. That is exactly what got me into sales too. I didn&apos;t plan to be in sales. A well-established mastermind in the high-ticket coaching space headhunted me for one of their chess coaching clients. I started as an SDR and closed a $5K-ticket in the DMs on my third day of work.
+I'm an Arena FIDE Chess Master, internationally rated chess player, certified chess coach, and a two-time state chess champion. That is exactly what got me into sales too. I didn't plan to be in sales. A well-established mastermind in the high-ticket coaching space headhunted me for one of their chess coaching clients. I started as an SDR and closed a $5K-ticket in the DMs on my third day of work.
 
 That changed something in me. Why did they really buy this?
 
-I climbed the sales ladder over the past years to be where I am today. I dug deeper into human psychology and behavioral psychology. I was desperate to learn the why behind most people&apos;s actions. That led me to sales psychology and belief systems. I learned, studied, and embodied the human brain and purchase psychology—buyer state.
+I climbed the sales ladder over the past years to be where I am today. I dug deeper into human psychology and behavioral psychology. I was desperate to learn the why behind most people's actions. That led me to sales psychology and belief systems. I learned, studied, and embodied the human brain and purchase psychology—buyer state.
 
-This made me incredibly dangerous because it made me a hypnotic closer. I could sell things to anyone—even if they didn&apos;t want it. Which is when I made a vow to myself:
-I&apos;m not using my gifts or skillset to harm any person psychologically, mentally, or financially.
+This made me incredibly dangerous because it made me a hypnotic closer. I could sell things to anyone—even if they didn't want it. Which is when I made a vow to myself:
+I'm not using my gifts or skillset to harm any person psychologically, mentally, or financially.
 
 To me, sales is change.
-But psychologically, humans resist change—because that&apos;s how our brains are wired—to survive.
+But psychologically, humans resist change—because that's how our brains are wired—to survive.
 
-So if sales is change and your brain resists it, how am I going to take you from a cautious state to a clarity phase—the phase where you know staying in the same place you&apos;re now is way more costly than investing to change your life and get to where you want to go?
+So if sales is change and your brain resists it, how am I going to take you from a cautious state to a clarity phase—the phase where you know staying in the same place you're now is way more costly than investing to change your life and get to where you want to go?
 
 The ability to take a person from the cautious phase to the closed-deal phase is what makes a great salesperson to me.
 
-Then came the frenzy of AI—it was super cool talking to ChatGPT, right? It was like Harry Potter writing in that Tom Riddle&apos;s diary. That made me curious and incredibly excited.
+Then came the frenzy of AI—it was super cool talking to ChatGPT, right? It was like Harry Potter writing in that Tom Riddle's diary. That made me curious and incredibly excited.
 
 I had all this knowledge of sales and psychology—what if I could replicate this using AI?
 
@@ -796,20 +796,20 @@ My agents were different—because a sales maestro built it to convert, not a te
 
 I was consulting sales teams and implementing AI sales solutions to their businesses, helping them reach $100K/mo+ in revenue.
 
-I didn&apos;t want to be known or even be close to the man who birthed me.
+I didn't want to be known or even be close to the man who birthed me.
 I changed my name from Pathberiyage Ashan Isuru Dharmasiri to Ashan Isuru Veymont—completely disowning him to build a lineage of my own. A lineage built of love, resilience, and safety.
 
 That birthed The Veymont Group.
 
-Now I&apos;m on a mission to dig deeper into human psychology, AI, super-intelligence, and spirituality. I want to integrate all of them into one—to make this world a better place. Peaceful.
+Now I'm on a mission to dig deeper into human psychology, AI, super-intelligence, and spirituality. I want to integrate all of them into one—to make this world a better place. Peaceful.
 
-Currently, I&apos;m building the future of Sri Lanka and Asia.
+Currently, I'm building the future of Sri Lanka and Asia.
 
 This is my story.
 The rise of the Phoenix.
 
 Piece of Advice for Anyone:
-Never let the place you&apos;re born in dictate who you are.
+Never let the place you're born in dictate who you are.
 Remember who you are—and grow into that person.`}
               </div>
             </StoryText>
