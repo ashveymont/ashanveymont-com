@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ThemeProviderWrapper from "./theme-provider-wrapper";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Ashan Veymont",
@@ -38,6 +39,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-VS3R78RH6Y"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VS3R78RH6Y');
+          `}
+        </Script>
         <ThemeProviderWrapper>
           {children}
         </ThemeProviderWrapper>
